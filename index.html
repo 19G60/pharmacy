@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>
+      Dickens Pharmacy | Premier Pharmacy for personalised medication
+    </title>
+    <!-- Google Fonts + Font Awesome 6 (free) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="script" href="script.js" />
+  </head>
+  <body>
+    <!-- Sticky Header -->
+    <header class="header" id="header">
+      <div class="container navbar">
+        <div class="logo">
+          <a href="#">THE PREMIER <span>PHARMACY</span></a>
+        </div>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#patients">For Patients</a></li>
+          <li><a href="#physicians">For Children</a></li>
+          <li><a href="#attorneys">For Subscription</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#" class="btn-primary nav-cta" style="padding: 8px 22px"
+              >Start Now</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <h1>FAST. PERSONALISED. MEDICATION.</h1>
+          <p>
+            We are dedicated to delivering high-quality, individualized
+            medication for our clients.
+          </p>
+          <a href="#" class="btn-primary"
+            >RECEIVE CONSULTATION
+            <i class="fas fa-arrow-right" style="margin-left: 8px"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Features Section Teal -->
+      <section id="services" class="features">
+        <div class="container">
+          <h2>The Premier Pharmacy</h2>
+          <p class="features-desc">
+            we understand the unique needs of our clients and are committed to
+            providing exceptional care and support throughout their recovery
+            journey.
+          </p>
+          <div class="features-grid">
+            <div class="feature-card reveal">
+              <i class="fas fa-hand-holding-usd"></i>
+              <h3>Payment Options</h3>
+            </div>
+            <div class="feature-card reveal">
+              <i class="fas fa-truck-fast"></i>
+              <h3>Fast Delivery</h3>
+            </div>
+            <div class="feature-card reveal">
+              <i class="fas fa-user-md"></i>
+              <h3>Physician Support</h3>
+            </div>
+            <div class="feature-card reveal">
+              <i class="fas fa-clipboard-list"></i>
+              <h3>Easy Process</h3>
+            </div>
+            <div class="feature-card reveal">
+              <i class="fas fa-heartbeat"></i>
+              <h3>Ongoing Care</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Section with HTML5 video element -->
+      <section class="video-section">
+        <div class="container">
+          <div class="video-wrapper reveal">
+            <video
+              controls
+              autoplay
+              muted
+              loop
+              poster="videos/What is the Difference Between Medicare and Medicaid _ Boomer Benefits.jpg"
+            >
+              <source
+                src="videos/Health Care Ad Video Template (Editable).mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- A FOCUS ON SERVICE -->
+      <section class="service-focus" id="focus">
+        <div class="content">
+          <h2>A FOCUS ON SERVICE</h2>
+          <p>
+            We all have one main job, guess which one? You're right,
+            <em>staying healthy !</em> We're here to help you get back on track.
+            When you need us, we’ll make sure you have everything you need to
+            recover quickly.
+          </p>
+          <a href="#" class="btn-outline-light">READ TESTIMONIALS</a>
+        </div>
+      </section>
+
+      <!-- Audience 3 columns (Patients, Physicians, Attorneys) -->
+      <section class="audience-section" id="patients">
+        <div class="container">
+          <div class="columns">
+            <!-- Column 1: Patients -->
+            <div class="audience-col reveal" id="patientsCard">
+              <img
+                src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Patient receiving care"
+                loading="lazy"
+              />
+              <div class="col-content">
+                <h3>For Patients</h3>
+                <p>
+                  Our experienced team of professionals is ready to help you
+                  with your injury or illness. Personalized treatment plans and
+                  ongoing support.
+                </p>
+                <a href="#" class="btn-audience">FOR PATIENTS</a>
+              </div>
+            </div>
+            <!-- Column 2: Physicians -->
+            <div class="audience-col reveal" id="physiciansCard">
+              <img
+                src="https://images.pexels.com/photos/5215025/pexels-photo-5215025.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Physician consulting"
+                loading="lazy"
+              />
+              <div class="col-content">
+                <h3>For Physicians</h3>
+                <p>
+                  We understand that you need a seamless pharmacy partner. We
+                  provide efficient medication coordination and dedicated case
+                  managers.
+                </p>
+                <a href="#" class="btn-audience">FOR PHYSICIANS</a>
+              </div>
+            </div>
+            <!-- Column 3: Children -->
+            <div class="audience-col reveal" id="childrenCard">
+              <img
+                src="https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Legal representation discussion"
+                loading="lazy"
+              />
+              <div class="col-content">
+                <h3>For Children</h3>
+                <p>
+                  We have a proven track record of success in representing
+                  children in health care matters. Reliable documentation and
+                  quality pharmacy care for all your needs.
+                </p>
+                <a href="#" class="btn-audience">FOR CHILDREN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container">
+        <p>
+          © 2026 Dicken's Pharmacy — Premier Care for Injured Workers. All
+          rights reserved.
+        </p>
+        <p style="margin-top: 16px">
+          <a href="#">Privacy Policy</a> | <a href="#">Accessibility</a> |
+          <a href="#">Contact: 0745100005</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        // Mobile toggle
+        const toggleBtn = document.getElementById("mobileToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        if (toggleBtn && navLinks) {
+          toggleBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+            // icon toggle
+            const icon = toggleBtn.querySelector("i");
+            if (navLinks.classList.contains("active")) {
+              icon.classList.remove("fa-bars");
+              icon.classList.add("fa-times");
+            } else {
+              icon.classList.remove("fa-times");
+              icon.classList.add("fa-bars");
+            }
+          });
+          // Close menu if click on link
+          const allLinks = navLinks.querySelectorAll("a");
+          allLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+              navLinks.classList.remove("active");
+              const icon = toggleBtn.querySelector("i");
+              if (icon) {
+                icon.classList.remove("fa-times");
+                icon.classList.add("fa-bars");
+              }
+            });
+          });
+        }
+
+        // Sticky header shadow on scroll
+        const header = document.querySelector(".header");
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 20) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            const targetId = this.getAttribute("href");
+            if (targetId === "#" || targetId === "") return;
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+              e.preventDefault();
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+              // close mobile menu if open
+              if (navLinks && navLinks.classList.contains("active")) {
+                navLinks.classList.remove("active");
+                const icon = toggleBtn?.querySelector("i");
+                if (icon) {
+                  icon.classList.remove("fa-times");
+                  icon.classList.add("fa-bars");
+                }
+              }
+            }
+          });
+        });
+
+        // Scroll reveal animations (Intersection Observer)
+        const reveals = document.querySelectorAll(".reveal");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+                observer.unobserve(entry.target); // optional performance
+              }
+            });
+          },
+          { threshold: 0.15, rootMargin: "0px 0px -50px 0px" },
+        );
+
+        reveals.forEach((el) => observer.observe(el));
+
+        // Also add reveal to feature cards that might not have .reveal? Already added.
+        // Additionally lazy load images with native lazy loading is already used
+        // Minor microinteraction on audience buttons nice hover (CSS)
+        // sticky navbar micro-effect plus smooth, plus we can handle scroll
+        // scroll animations make first reveal visible on load manually check some already visible
+        window.addEventListener("load", () => {
+          // manually trigger any visible elements on load
+          reveals.forEach((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+              el.classList.add("active");
+              observer.unobserve(el);
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
